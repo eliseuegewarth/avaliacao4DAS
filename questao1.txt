@@ -1,0 +1,15 @@
+/**
+ * questao1.txt
+ * Questão 1: Para cada um desses elementos apresente claramente a) uma definição do elemento e b) seu papel (função) na abordagem DBC.
+ * Aluno: Eliseu Egewarth
+ */
+
+* Componente de software:
+    a) Segundo a referência, um componente pode ser descrito como uma unidade de composição com interfaces e dependências explicítas. Outras visões abordadas é de que ele pode ser descrito como um conjunto independente de serviços reutilizáveis ou ainda de que pode ser qualquer artefato autocontido que possua interfaces claras, documentação apropriada e condições de reuso definidas.
+    b) Componentes de software tem um papel chave no DBC pois trazem vantagens como: menor tempo de desenvolvimento, maior estabilidade do código, além de diminuir a duplicação de código.
+* Framework de componentes:
+    a) Segundo a referência, frameworks de componentes são implementações arquiteturais de serviços que dão suporte ou reforçam o modelo de componentes.
+    b) A principal função do framework é gerenciar os recursos compartilhados pelos componentes e prover um mecanismo que possibilite a comunicação entre eles.
+* Modelo de componentes:
+    a) Segundo a referência, modelos de componentes são abstrações arquiteturais e tem como objetivo representar um elemento arquitetural do sistema no qual são definidos os padrões e convenções impostas aos componentes do sistema, descrevendo a função de cada um e como interagem entre si.
+    b) O principal papel do modelo de componentes é expressar restrições de projeto arquitetural através da definição dos padrões e convenções.
