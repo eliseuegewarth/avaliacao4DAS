@@ -1,0 +1,7 @@
+* Stubs são classes responsáveis pela comunicação o servidor e o código local. Essas classes traduzem as chamadas de methodos locais em referencias para as chamadas de methodos remotas no servidor.
+
+* Skeletons são classes que intermediam o recebimento de chamadas serealizadas e a chamada de funções no servidor. Elas recebem as chamadas, fazem o unmarshalling que é similar a desserialização, invocam a implementação do metodo que existe no servidor e responde os dados retornados para o stub do cliente.
+
+* Registros são representações de objetos remotos disponíveis na rede que auxiliam na comunicação entre cliente e servidor. Registros são utilizados para definir o comportamento de comunicação entre stubs e skeletons.
+
+* Serialização (marshalling e unmarshalling) são processos semelhantes a serialização e desserialização e tem como objetivo traduzir a chamada local do metodo em uma chamada compatível com o objeto remoto do servidor. Ambos os processos são utilizados pelos stubs e skeletons durante o processo de comunicação entre eles.
